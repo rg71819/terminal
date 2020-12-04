@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'MrRobot';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MrRobot'), url('MR ROBOT.woff') format('woff');
+    }
+body{
+   background-color: #000000;
+   color: #f4f4f2;
+}
+.title-text{
+    color: white;
+    font-family: MrRobot;
+    font-weight:normal;
+    font-size: 50px;
+}
+.title{
+    text-align: center;
+}
+
+/*CSS for terminal*/
+.terminal{
+    background-color: #333456;
+    height: 50%;
+    width: 75%;
+    margin: auto;
+}
+.terminalHead{
+    background-color: #f4f4f2;
+    font-weight: bold;
+}
+.optionsBar ul{
+    list-style-type: none;
+}
+.optionsBar li{
+    display: inline;
+}
+.optionsBar li a{
+    text-decoration: none;
+    color: #000000;
+}
+input{
+    border: none;
+    background-color:  #333456;
+    font-weight: bold;
+    color: green;
+    width: 100%;
+    padding: 0px;
+}
+label{
+    color: #f4f4f2;
+    display: table-cell;
+    width: 1px;
+}
+.cmdInput{
+    display: table;
+    width: 100%;
+}
+input:focus{
+	outline:none;
+}
+.sameLineInput{
+    display: table-cell;
+}
+.cmdOutput{
+    color: greenyellow !important;
+    
+}
+.buttons{
+    float: right;
+}
+.buttons button{
+    background-color: transparent;
+    border-color: transparent;
+}
+#terminalTitle{
+    color: black;
+    text-align: center;
+}
+.terminalBody{
+	overflow:auto;
+	height:60vh;
+}
